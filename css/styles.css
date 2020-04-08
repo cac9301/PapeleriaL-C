@@ -83,6 +83,20 @@ body {
         width: 255px;
         height: 169px;
     }
+    .img-avatar {
+        max-width: 91%;
+        height: 169px;
+        border-radius: 150px;
+    }
+}
+
+@media (max-width: 468px) {
+    .img-avatar {
+        max-width: 79%;
+        height: 255px;
+        margin: 43px;
+        border-radius: 150px;
+    }
 }
 
 .navbar-light .navbar-brand,
@@ -165,7 +179,7 @@ body {
 /* HORARIOS **/
 
 .horario {
-    background-color: #03375a;
+    background-color: #218dd4;
     color: #ffffff;
 }
 
@@ -175,11 +189,11 @@ body {
 }
 
 .horario .table {
-    border: 2px solid #218dd4;
+    border: 2px solid #14ebd9;
 }
 
 .horario .table thead {
-    background-color: #05a7e7;
+    background-color: #14ebd9;
 }
 
 .horario .table td,
@@ -259,7 +273,7 @@ body {
 }
 
 .btn-primary {
-    background-color: #8ed3cc;
+    background-color: #05a7e7;
     border: 0;
     padding: 1rem 5rem;
     border-radius: 0;
@@ -290,9 +304,9 @@ body {
     position: absolute;
     bottom: 2rem;
     right: 0;
-    background-color: #8ed3cc;
+    background-color: #2ca6f8;
     font-family: 'Raleway', sans-serif;
-    font-weight: 900;
+    font-weight: 500;
     color: #ffffff;
     font-size: 2.8rem;
 }
@@ -303,11 +317,22 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+.clase-modal p {
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+    font-family: 'Lato', cursive;
+    text-align: justify;
+}
+
+.imagenes {
+    align-items: center;
+}
+
 
 /** SIDEBAR **/
 
 aside {
-    background-color: #8ed3cc;
+    background-color: #2ca6f8;
     color: #ffffff;
 }
 
