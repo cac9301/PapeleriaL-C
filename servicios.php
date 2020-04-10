@@ -1,4 +1,5 @@
 <?php
+    $titulo="Servicios";
     include 'Templates/header.php';
     include 'Templates/navegation.php';
 

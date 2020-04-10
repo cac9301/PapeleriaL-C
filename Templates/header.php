@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Italianno|Lato:400,700,900|Raleway:400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <title> <?php echo $titulo?> |PapeleraL&C</title>
 </head>
 
 <body>

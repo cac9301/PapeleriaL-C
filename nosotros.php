@@ -1,7 +1,7 @@
 <?php
+    $titulo="Nosotros";
     include 'Templates/header.php';
     include 'Templates/navegation.php';
-
 ?>
 
 

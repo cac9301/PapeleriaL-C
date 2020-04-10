@@ -1,6 +1,8 @@
 <?php
+    $titulo="productos";  
     include 'Templates/header.php';
     include 'Templates/navegation.php';
+    include 'inc/funciones.php';
 ?>
 
 <div class="container">
@@ -44,7 +46,7 @@
 
         <!--.carousel-item-->
 
-        
+
         <a href="#slider-principal" class="carousel-control-prev" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Anterior</span>
@@ -67,167 +69,33 @@
 
             <div class="row">
                 <div class="card-columns">
-
-
+                    <?php
+                    $productos = ObtenerParametros(10);
+                    while($producto= $productos->fetch_assoc()){
+                    
+                ?>
                     <div class="card">
-                        <a href="producto.html">
-                            <img class="imagen-productos w-100 img-fluid card-img-top" src="Img1/producto_01.png">
+                        <a href="producto.php?id=<?php echo $producto['id'];?>">
+                            <img class="imagen-productos w-100 img-fluid card-img-top"
+                                src="Img1/<?php echo $producto['imagen_mini'];?>">
                             <div class="card-body">
-                                <h3 class="card-title text-center text-uppercase">
-                                    Producto 1
+                                <h3 class="card-title text-center text-uppercase"><?php echo $producto ['nombre'];?>
                                 </h3>
-                                <p class="card-text text-uppercase">Curabitur egestas sit amet urna nec blandit.
-                                    Curabitur egesta.</p>
-                                <p class="precio lead text-center mb-0">$ 25</p>
+                                <p class="card-text text-uppercase">
+                                    <?php echo $producto ['descripcion_corta'];?>
+                                </p>
+                                <p class="precio mb-0 lead text-center">
+                                    <?php echo $producto ['precio'];?>
+                                </p>
                             </div>
                         </a>
                     </div>
                     <!--.card-->
-
-                    <div class="card">
-                        <a href="producto.html">
-                            <img class="imagen-productos w-100 img-fluid card-img-top" src="Img1/producto_01.png">
-                            <div class="card-body">
-                                <h3 class="card-title text-center text-uppercase">
-                                    Producto 1
-                                </h3>
-                                <p class="card-text text-uppercase">Curabitur egestas sit amet urna nec blandit.
-                                    Curabitur egesta.</p>
-                                <p class="precio lead text-center mb-0">$ 25</p>
-                            </div>
-                        </a>
-                    </div>
-                    <!--.card-->
-                    <div class="card">
-                        <a href="producto.html">
-                            <img class="imagen-productos w-100 img-fluid card-img-top" src="Img1/producto_01.png">
-                            <div class="card-body">
-                                <h3 class="card-title text-center text-uppercase">
-                                    Producto 1
-                                </h3>
-                                <p class="card-text text-uppercase">Curabitur egestas sit amet urna nec blandit.
-                                    Curabitur egesta.</p>
-                                <p class="precio lead text-center mb-0">$ 25</p>
-                            </div>
-                        </a>
-                    </div>
-                    <!--.card-->
-                    <div class="card">
-                        <a href="producto.html">
-                            <img class="imagen-productos w-100 img-fluid card-img-top" src="Img1/producto_01.png">
-                            <div class="card-body">
-                                <h3 class="card-title text-center text-uppercase">
-                                    Producto 1
-                                </h3>
-                                <p class="card-text text-uppercase">Curabitur egestas sit amet urna nec blandit.
-                                    Curabitur egesta.</p>
-                                <p class="precio lead text-center mb-0">$ 25</p>
-                            </div>
-                        </a>
-                    </div>
-                    <!--.card-->
-                    <div class="card">
-                        <a href="producto.html">
-                            <img class="imagen-productos w-100 img-fluid card-img-top" src="Img1/producto_01.png">
-                            <div class="card-body">
-                                <h3 class="card-title text-center text-uppercase">
-                                    Producto 1
-                                </h3>
-                                <p class="card-text text-uppercase">Curabitur egestas sit amet urna nec blandit.
-                                    Curabitur egesta.</p>
-                                <p class="precio lead text-center mb-0">$ 25</p>
-                            </div>
-                        </a>
-                    </div>
-                    <!--.card-->
-                    <div class="card">
-                        <a href="producto.html">
-                            <img class="imagen-productos w-100 img-fluid card-img-top" src="Img1/producto_01.png">
-                            <div class="card-body">
-                                <h3 class="card-title text-center text-uppercase">
-                                    Producto 1
-                                </h3>
-                                <p class="card-text text-uppercase">Curabitur egestas sit amet urna nec blandit.
-                                    Curabitur egesta.</p>
-                                <p class="precio lead text-center mb-0">$ 25</p>
-                            </div>
-                        </a>
-                    </div>
-                    <!--.card-->
-                    <div class="card">
-                        <a href="producto.html">
-                            <img class="imagen-productos w-100 img-fluid card-img-top" src="Img1/producto_01.png">
-                            <div class="card-body">
-                                <h3 class="card-title text-center text-uppercase">
-                                    Producto 1
-                                </h3>
-                                <p class="card-text text-uppercase">Curabitur egestas sit amet urna nec blandit.
-                                    Curabitur egesta.</p>
-                                <p class="precio lead text-center mb-0">$ 25</p>
-                            </div>
-                        </a>
-                    </div>
-                    <!--.card-->
-                    <div class="card">
-                        <a href="producto.html">
-                            <img class="imagen-productos w-100 img-fluid card-img-top" src="Img1/producto_01.png">
-                            <div class="card-body">
-                                <h3 class="card-title text-center text-uppercase">
-                                    Producto 1
-                                </h3>
-                                <p class="card-text text-uppercase">Curabitur egestas sit amet urna nec blandit.
-                                    Curabitur egesta.</p>
-                                <p class="precio lead text-center mb-0">$ 25</p>
-                            </div>
-                        </a>
-                    </div>
-                    <!--.card-->
-                    <div class="card">
-                        <a href="producto.html">
-                            <img class="imagen-productos w-100 img-fluid card-img-top" src="Img1/producto_01.png">
-                            <div class="card-body">
-                                <h3 class="card-title text-center text-uppercase">
-                                    Producto 1
-                                </h3>
-                                <p class="card-text text-uppercase">Curabitur egestas sit amet urna nec blandit.
-                                    Curabitur egesta.</p>
-                                <p class="precio lead text-center mb-0">$ 25</p>
-                            </div>
-                        </a>
-                    </div>
-                    <!--.card-->
-                    <div class="card">
-                        <a href="producto.html">
-                            <img class="imagen-productos w-100 img-fluid card-img-top" src="Img1/producto_01.png">
-                            <div class="card-body">
-                                <h3 class="card-title text-center text-uppercase">
-                                    Producto 1
-                                </h3>
-                                <p class="card-text text-uppercase">Curabitur egestas sit amet urna nec blandit.
-                                    Curabitur egesta.</p>
-                                <p class="precio lead text-center mb-0">$ 25</p>
-                            </div>
-                        </a>
-                    </div>
-                    <!--.card-->
-                    <div class="card">
-                        <a href="producto.html">
-                            <img class="imagen-productos w-100 img-fluid card-img-top" src="Img1/producto_01.png">
-                            <div class="card-body">
-                                <h3 class="card-title text-center text-uppercase">
-                                    Producto 1
-                                </h3>
-                                <p class="card-text text-uppercase">Curabitur egestas sit amet urna nec blandit.
-                                    Curabitur egesta.</p>
-                                <p class="precio lead text-center mb-0">$ 25</p>
-                            </div>
-                        </a>
-                    </div>
-                    <!--.card-->
-
-
+                    <?php
+                                                                }
+                ?>
+                    <!--.card-columns-->
                 </div>
-                <!--.card-columns-->
             </div>
         </main>
 

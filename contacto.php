@@ -1,4 +1,5 @@
 <?php
+    $titulo="contacto";
     include 'Templates/header.php';
     include 'Templates/navegation.php';
 

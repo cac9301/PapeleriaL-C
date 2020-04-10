@@ -1,7 +1,8 @@
 <?php
+    $titulo="inicio";
     include 'Templates/header.php';
     include 'Templates/navegation.php';
-    include 'funciones.php';
+    include 'inc/funciones.php';
 ?>
 
 <div class="container">
@@ -207,75 +208,30 @@
     <div class="row py-5">
         <?php
             $productos = ObtenerParametros(4);
-
-            echo "<pre>";
-            var_dump($productos);
-            echo "</pre>";
+            while($producto= $productos->fetch_assoc()){
         ?>
         <div class="col-md-3 mb-4">
             <div class="card">
-                <a href="#">
-                    <img class="imagen-productos w-100 img-fluid card-img-top" src="Img1/producto_01.png">
+                <a href="producto.php?id=<?php echo $producto['id'];?>">
+                    <img class="imagen-productos w-100 img-fluid card-img-top" src="Img1/<?php echo $producto['imagen_mini'];?>">
                     <div class="card-body">
-                        <h3 class="card-title text-center text-uppercase">Producto 1</h3>
+                        <h3 class="card-title text-center text-uppercase"><?php echo $producto ['nombre'];?></h3>
                         <p class="card-text text-uppercase">
-                            Curabitur egestas sit amet urna nec blandit. Curabitur egesta.
+                        <?php echo $producto ['descripcion_corta'];?>
                         </p>
-                        <p class="precio mb-0 lead text-center">$25</p>
+                        <p class="precio mb-0 lead text-center">
+                        <?php echo $producto ['precio'];?>
+                        </p>
                     </div>
                 </a>
             </div>
             <!--.card-->
         </div>
         <!--.col-md-3-->
-        <div class=" col-md-3 mb-4">
-            <div class="card">
-                <a href="#">
-                    <img class="imagen-productos w-100 img-fluid card-img-top" src="Img1/producto_02.png">
-                    <div class="card-body">
-                        <h3 class="card-title text-center text-uppercase">Producto 2</h3>
-                        <p class="card-text text-uppercase">
-                            Curabitur egestas sit amet urna nec blandit. Curabitur egesta.
-                        </p>
-                        <p class="precio mb-0 lead text-center">$25</p>
-                    </div>
-                </a>
-            </div>
-            <!--.card-->
-        </div>
-        <!--.col-md-3-->
-        <div class="col-md-3 mb-4">
-            <div class="card">
-                <a href="#">
-                    <img class="imagen-productos w-100 img-fluid card-img-top" src="Img1/producto_03.png">
-                    <div class="card-body">
-                        <h3 class="card-title text-center text-uppercase">Producto 3</h3>
-                        <p class="card-text text-uppercase">
-                            Curabitur egestas sit amet urna nec blandit. Curabitur egesta.
-                        </p>
-                        <p class="precio mb-0 lead text-center">$25</p>
-                    </div>
-                </a>
-            </div>
-            <!--.card-->
-        </div>
-        <!--.col-md-3-->
-        <div class="col-md-3 mb-4">
-            <div class="card">
-                <a href="#">
-                    <img class="imagen-productos w-100 img-fluid card-img-top" src="Img1/producto_04.png">
-                    <div class="card-body">
-                        <h3 class="card-title text-center text-uppercase">Producto 4</h3>
-                        <p class="card-text text-uppercase">
-                            Curabitur egestas sit amet urna nec blandit. Curabitur egesta.
-                        </p>
-                        <p class="precio mb-0 lead text-center">$25</p>
-                    </div>
-                </a>
-            </div>
-            <!--.card-->
-        </div>
-        <!--.col-md-3-->
+        <?php
+        }
+        ?>
+
     </div>
     <!--.row-->
 </section>
