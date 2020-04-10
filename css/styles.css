@@ -130,7 +130,7 @@ body {
     }
     .carousel-caption h3 {
         font-family: 'Raleway', sans-serif;
-        font-size: rem;
+        font-size: 1.6rem;
         font-weight: 700;
         color: #ffffff;
         padding-bottom: 4rem;
@@ -176,7 +176,7 @@ body {
 
 .carousel-caption h3 {
     font-family: 'Raleway', sans-serif;
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-weight: 900;
     color: #ffffff;
 }
