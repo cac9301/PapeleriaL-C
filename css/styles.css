@@ -67,7 +67,7 @@ body {
     color: #0629c5;
 }
 
-.sociales ul li a[href*="facebook.com"]::before {
+.sociales ul li a[href*="https://www.facebook.com/pages/DISTRIBUIDORA-PAPELERA-LC/659951977358117?eid=ARBx-tLuJ8PvJeMFfE4rUw1n5KmLi0mdjGFmtHUqrAMRy5lD67uRTxAFAciKI5KGwe-xt8ctM84PMmqy&timeline_context_item_type=intro_card_work&timeline_context_item_source=1202512799&fref=tag"]::before {
     content: '\f230';
 }
 
@@ -118,11 +118,22 @@ body {
 }
 
 @media (max-width: 468px) {
+    .contnedor-inner {
+        width: 339px;
+        height: 214px;
+    }
     .img-avatar {
         max-width: 69%;
         height: 240px;
         margin: 64px;
         border-radius: 69px;
+    }
+    .carousel-caption h3 {
+        font-family: 'Raleway', sans-serif;
+        font-size: rem;
+        font-weight: 700;
+        color: #ffffff;
+        padding-bottom: 4rem;
     }
 }
 
@@ -165,7 +176,7 @@ body {
 
 .carousel-caption h3 {
     font-family: 'Raleway', sans-serif;
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: 900;
     color: #ffffff;
 }
@@ -280,7 +291,7 @@ body {
 /** Citas **/
 
 .citas {
-    background-image: url(../Img1/envio2.jpg);
+    background-image: url(../Img1/duda.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
