@@ -73,7 +73,7 @@
                         <h2 class="text-center text-uppercase encabezado">
                             <span class="text-lowercase d-block">Conoce sobre</span> nosotros
                         </h2>
-                        <a href="nosotros.html" class="btn btn-primary btn-block text-uppercase mt-4 py-3">Leer más</a>
+                        <a href="nosotros.php" class="btn btn-primary btn-block text-uppercase mt-4 py-3">Leer más</a>
                     </div>
                 </div>
                 <!--.row-->
@@ -89,7 +89,7 @@
                         <h2 class="text-center text-uppercase encabezado">
                             <span class="text-lowercase d-block">Nuestros</span> servicios
                         </h2>
-                        <a href="servicios.html" class="btn btn-primary btn-block text-uppercase mt-4 py-3">Leer más</a>
+                        <a href="servicios.php" class="btn btn-primary btn-block text-uppercase mt-4 py-3">Leer más</a>
                     </div>
                 </div>
                 <!--.row-->
@@ -104,7 +104,7 @@
                         <h2 class="text-center text-uppercase encabezado">
                             <span class="text-lowercase d-block"></span> Productos en Maqueta
                         </h2>
-                        <a href="productos.html" class="btn btn-primary btn-block text-uppercase mt-4 py-3">Leer más</a>
+                        <a href="productos.php" class="btn btn-primary btn-block text-uppercase mt-4 py-3">Leer más</a>
                     </div>
                 </div>
                 <!--.row-->
