@@ -1,86 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+    include 'Templates/header.php';
+    include 'Templates/navegation.php';
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Italianno|Lato:400,700,900|Raleway:400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-
-<body>
-
-    <header class="encabezado-sitio container">
-        <div class="row justify-content-md-between align-items-center">
-            <div class="col-lg-4">
-                <a href="index.html">
-                    <img src="Img1/papeleria _lyc_logo.svg" class="img-fluid mx-auto d-block pt-4 pb-4">
-                </a>
-            </div>
-            <div class="col-lg-4">
-                <nav class="sociales text-center text-lg-right">
-                    <ul>
-                        <li>
-                            <a href="http://facebook.com">
-                                <span class="sr-only"> Facebook</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="http://twitter.com">
-                                <span class="sr-only"> Twitter</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="http://instagram.com">
-                                <span class="sr-only"> Instagram</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://api.whatsapp.com/send?phone=573155220121&amp;text=&amp;source=&amp;data= ">
-                                <span class="sr-only"> whatsapp</span>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </header>
-
-    <div class="navegacion mt-3 py-1">
-        <nav class="nav-principal navbar navbar-expand-md navbar-light bg-faded">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav_principal" aria-label="Mostrar Navegacion">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-            <a href="#" class="navbar-brand d-lg-none">Distribuidora & Papelera L&C</a>
-            <div class="container">
-                <div class="collapse navbar-collapse w-100" id="nav_principal">
-                    <ul class="nav nav-justified w-100 flex-column flex-sm-row">
-                        <li class="nav-item">
-                            <a href="index.html" class="nav-link">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="nosotros.html" class="nav-link">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="servicios.html" class="nav-link">Servicios</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="producto.html" class="nav-link">Productos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="contacto.html" class="nav-link">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
-                <!--.collapse-->
-            </div>
-            <!--.container-->
-        </nav>
-    </div>
-
+?>
     <div class="container pt-4">
         <div class="row no-gutters">
             <div class="col-12 hero">
@@ -242,68 +164,7 @@
         </div>
     </div>
 
-    <footer class="footer-sitio pt-3 mt-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h3 class="text-uppercase text-center pb-4">Nosotros</h3>
-                    <p class="nostros-texto text-justify">Nuestra empresa fue creada el 2 de diciembre de 2010, presta sus de servicios para los abogados y rama judicial, en la actualidad es una empresa versátil ya utiliza y combina las dos propiedades como lo son la prestación de un servicio
-                        óptimo y rápido ante el ente judicial y por otro lado en todo lo relacionado con útiles escolares al ser una distribuidora integral para la entrega de productos de temporadas escolar</p>
-                </div>
-                <div class="col-md-4 text-center">
-                    <h3 class="text-uppercase  pb-4">Horario</h3>
-                    <p>Lun-Vie: 6:40 AM - 6:00 PM</p>
-                    <p>Sábado: 8:00 AM - 5:00 PM</p>
-                    <p>Domingo: Cerrado</p>
-                </div>
-                <div class="col-md-4 text-center">
-                    <h3 class="text-uppercase pb-4">Contacto</h3>
-                    <a href="https://www.google.com/maps/uv?hl=es&pb=!1s0x8e30a70f60046b09:0x1c61935c12f3a4f4!3m1!7e115!4shttps://lh5.googleusercontent.com/p/AF1QipPGVZKzkWtOjlgjSSC2ebQIAhlfhhj4sraVt3uZ%3Dw95-h160-k-no!5scentro+comercial+cali+2000+-+Buscar+con+Google&imagekey=!1e10!2sAF1QipPGVZKzkWtOjlgjSSC2ebQIAhlfhhj4sraVt3uZ&sa=X&ved=2ahUKEwiDveqRjtroAhXuUt8KHfT4D8kQoiowE3oECBEQBg">
-                        <p>Carrera 9 No 11-50 Local 33 </p>
-                    </a>
-                    <p>Cali-Valle</p>
-                    <a href="https://api.whatsapp.com/send?phone=573155220121&amp;text=&amp;source=&amp;data= ">
-                        <p>3155220121 </p>
-                    </a>
-                    <nav class="sociales text-center">
-                        <ul>
-                            <li>
-                                <a href="http://facebook.com">
-                                    <span class="sr-only"> Facebook</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://twitter.com">
-                                    <span class="sr-only"> Twitter</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://instagram.com">
-                                    <span class="sr-only"> Instagram</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://youtube.com">
-                                    <span class="sr-only"> YouTube</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-                <!--col-md-4-->
-                <hr class="w-100">
-                <p class="text-center copyright w-100">Distribuidora Papelera L&C,Todos los derechos reservados</p>
-            </div>
-            <!--.row-->
-        </div>
-        <!--.container-->
-
-    </footer>
-
-    <script src="js/jquery.slim.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
-</body>
-
-</html>
+<?php
+    include 'Templates/footer.php';
+    
+?>
