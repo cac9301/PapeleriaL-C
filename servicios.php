@@ -33,11 +33,13 @@
                     </div>
                     <!--.card-header-->
                     <div id="descripcion1" class="collapse show" aria-labelledby="servicio1" data-parent="#servicios">
-                        <div class="nuevo-sitio py-1">
-                            <h1 class="text-center text-uppercase mt-4 encabezado-servicio">
-                                <span class="text-lowercase d-block"> La fidelidad de la copia es muy importante,
+                        <div class=" text-justify nuevo-sitio py-1">
+                            <h1 class="text-justify text-uppercase mt-4 encabezado-servicio">
+                                <span class="text-lowercase text-justify m-3 d-block"> La calidad de la copia es muy
+                                    importante,
                                     contamos con equipos que nos permiten ofrecer una copia de alta calidad y
-                                    rapidez.</span>
+                                    rapidez, ya que contamos con tres maquinas que ofrecen hasta 50 copias por
+                                    minuto</span>
                             </h1>
                         </div>
                         <div class="card-body ">
@@ -88,8 +90,9 @@
                         <div id="descripcion2" class="collapse" aria-labelledby="servicio2" data-parent="#servicios">
                             <div class="nuevo-sitio py-1">
                                 <h1 class="text-center text-uppercase mt-4 encabezado-servicio">
-                                    <span class="text-lowercase d-block"> La fidelidad de la copia es muy importante,
-                                        contamos con equipos que nos permiten ofrecer una copia de alta calidad y
+                                    <span class=" text-justify m-4 text-lowercase d-block"> La fidelidad de la impresion
+                                        es muy importante,
+                                        contamos con equipos que nos permiten ofrecer una impresion de alta calidad y
                                         rapidez.</span>
                                 </h1>
                             </div>
@@ -145,7 +148,8 @@
                         <div id="descripcion3" class="collapse" aria-labelledby="servicio3" data-parent="#servicios">
                             <div class="nuevo-sitio py-1">
                                 <h1 class="text-center text-uppercase mt-4 encabezado-servicio">
-                                    <span class="text-lowercase d-block"> Un buen terminado resalta la importancia de un
+                                    <span class=" text-justify m-4 text-lowercase d-block"> Un buen terminado resalta la
+                                        importancia de un
                                         documento, le ofrecemos opciones diferentes que se ajustan a su exigencia y
                                         presupuesto.</span>
                                 </h1>
@@ -244,6 +248,8 @@
             <p class="d-none d-md-block text-center text-uppercase mt-4">Somo especialistas en el area Judicial </p>
         </section>
 
+
+
         <div class="container">
             <div id="servicios">
                 <div class="card">
@@ -261,8 +267,8 @@
                             <div class="row">
                                 <div class=" text-justify col-12 col-sm-6 col-md-8 col-lg-6 "
                                     style="border-right: 4px solid orange;">
-                            <?php
-                            $productos = ObtenerParametro(1);
+                                    <?php
+                            $productos = ObtenerParametro(4);
                             while($producto= $productos->fetch_assoc()){
                             ?>
                                     <ul class="list-group">
@@ -271,11 +277,7 @@
                                                 <?php echo $producto ['nombre'];?>
                                             </li>
                                         </a>
-                                        <a href="#servicios">
-                                        <li class="list-group-item">HABEAS CORPUS</li>
-                                        </a>
-                                        <li class="list-group-item">HABEAS DATA</li>
-                                        <li class="list-group-item">ACCIONES DE TUTELA</li>
+
                                     </ul>
                                     <?php 
                                                                     }
@@ -298,7 +300,7 @@
                                 $producto1= $resultado->fetch_assoc();
                                 
                                 ?>
-                                
+
                                 <div id="Ramajudicial<?php echo $producto1['id'];?>"
                                     class=" text-justify col-12 col-sm-6 col-md-4 col-lg-6">
                                     <h2 class="text-center text-lo">¿<?php echo $producto1 ['nombre'];?>?</h2>
@@ -314,8 +316,85 @@
 
                     </div>
                 </div>
+
             </div>
         </div>
+
+        <div class="container">
+        <div id="servicios">
+            <div class="card align-self">
+                <div class="card-header text-center" id="servicio6">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#descripcion6"
+                            aria-expanded="true" aria-controls="#descripcion6">
+                            POLIZAS JUDICIALES & DE CUMPLIMIENTO
+                        </button>
+                    </h2>
+                </div>
+                <!--.card-header-->
+                <div id="descripcion6" class="collapse show" aria-labelledby="servicio6" data-parent="#servicios">
+                    <div class="nuevo-sitio_1 py-1">
+                        <div class="d-none mb-4 offset-4 col-12 co-sm-6 col-lg-4">
+                            <img src="Img1/seguros_estado.png" class="img-fluid w-100">
+                        </div>
+
+                        <div class=" mb-4  col-12 co-sm-6 col-lg-4">
+                            <img src="Img1/seguros_estado.png" class="img-fluid w-100">
+                        </div>
+                        <div class="row">
+                            <div class=" text-justify col-12 col-sm-6 col-md-8 col-lg-6 "
+                                style="border-right: 4px solid orange;">
+                                <ul class=" list-group">
+                                    <li class="list-group-item">POLIZAS PENALES DE 1-5 </li>
+                                    <li class="list-group-item">POLIZAS DE RESPONSABILIDAD CIVIL</li>
+                                    <li class="list-group-item">POLIZAS CIVILES "(ART:599,602,384 & 382)"</li>
+                                    <li class="list-group-item">SOATS</li>
+                                    <li class="list-group-item">POLIZAS TODO RIESGO</li>
+                                </ul>
+                            </div>
+                            <div class=" text-justify col-12 col-sm-6 col-md-4 col-lg-6">
+                                <h2 class="text-center text-lo">
+                                    TASAS POLIZAS PENALES
+                                </h2>
+                                <div class="d-none d-md-block">
+                                    <table class="table table-hover  table-bordered  text-center mt-3">
+                                        <thead class="thead-dark">
+                                            <tr>
+                                                <th class="text-center">SMLVG</th>
+                                                <th class="text-center">SALARIO</th>
+                                                <th class="text-center">PRECIO POLIZA</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>UN(1)</td>
+                                                <td>$877.803</td>
+                                                <td>$146,245</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>DOS(2)</td>
+                                                <td>$1.755,606</td>
+                                                <td>$292,490</td>
+                                            </tr>
+                                            <tr>
+                                                <td>TRES(3)</td>
+                                                <td>$2.633.409</td>
+                                                <td>$387.222</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>       
+        <div></div>
 
 
 
