@@ -9,6 +9,15 @@ body {
     line-height: 2.4rem;
 }
 
+
+/**encabezado-Rama**/
+
+.encabezado-Rama span {
+    font-size: 3.8rem;
+    font-family: 'lato', cursive;
+    color: #05a7e7;
+}
+
 .encabezado span {
     font-size: 3.8rem;
     font-family: 'Italianno', cursive;
@@ -195,6 +204,14 @@ body {
     font-size: 1.6rem;
 }
 
+.nuevo-sitio_1 {
+    font-family: 'Lato', sans-serif;
+    color: #000000;
+    line-height: 1.5rem;
+    font-size: 1.4rem;
+    margin: 1rem;
+}
+
 
 /** Servicios **/
 
@@ -301,6 +318,26 @@ body {
     background-position: center center;
     background-attachment: fixed;
     color: #000000;
+}
+
+
+/** Rama judicial */
+
+.Ramajudicial {
+    background-image: url(../Img1/duda.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #000000;
+}
+
+.Rama-judicial h2 {
+    font-size: 1.2rem;
+}
+
+h2,
+h2 {
+    font-size: 1.8rem;
 }
 
 @media (min-width: 992px) {

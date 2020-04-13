@@ -1,4 +1,7 @@
 <?php
+include 'Templates/header.php';
+include 'Templates/navegation.php';
+include 'inc/funciones.php';
 
 if(isset($_GET['id']) ){
 
@@ -9,15 +12,11 @@ if(isset($_GET['id']) ){
         header('location: 404.html');
         exit;
     }
-}
-    $titulo="producto";
-    include 'Templates/header.php';
-    include 'Templates/navegation.php';
-    include 'inc/funciones.php';
-    
-    $resultado = obtenerId($producto_id);
-    $producto= $resultado->fetch_assoc();
-    if($resultado->num_rows > 0){
+}    
+$resultado = obtenerId($producto_id);
+$producto= $resultado->fetch_assoc();
+if($resultado->num_rows > 0){
+    $titulo="producto";   
 ?>
 
 

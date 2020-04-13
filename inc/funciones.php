@@ -28,3 +28,31 @@ return $resultado;
     
 }
 
+function ObtenerParametro($cantidad=1){
+    include 'conexion.php';
+    try{
+        $sql = "SELECT * FROM constitucional LIMIT $cantidad";
+        $resultado= $bd->query($sql);
+    } catch(Exception $e){
+    echo $e->getMessage();
+    return array();
+}
+return $resultado;
+    
+}
+
+// obtener un id del producto
+
+function obtenerId1($idProducto){
+    include 'conexion.php';
+    try{
+        $sql = " SELECT nombre,descripcion FROM constitucional WHERE id=$idProducto";
+        $resultado= $bd->query($sql);
+    } catch(Exception $e){
+    echo $e->getMessage();
+    return array();
+}
+return $resultado;
+    
+}
+
