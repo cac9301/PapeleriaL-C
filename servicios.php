@@ -157,14 +157,14 @@
                             <div class="card-body ">
                                 <div class="container-fluid no-gutters">
                                     <div class="row text-center">
-                                        <div class="col-5 col-md-4 text-center" style="border-right: 4px solid orange;">
+                                        <div class="col-6 col-md-4 text-center" style="border-right: 4px solid orange;">
                                             <h4 class="text-center" style=" color:#dd3333"><em>Materiales</em></h4>
                                             <p>Materiales</p>
                                             <p>Anillo doble o Espiral</p>
                                             <p>Belovinder</p>
                                             <p>Tipo empastado</p>
                                         </div>
-                                        <div class="col-7 col-md-4 ">
+                                        <div class="col-6 col-md-4 ">
                                             <p>
                                                 Encuadernación
                                             </p>
@@ -241,23 +241,29 @@
             </div>
         </aside>
         <!--Judiciales-->
-        <section class=" col-lg-12  nuevo-sitio py-5">
+        <section id="ramaJudicial" class=" col-lg-12  nuevo-sitio py-5">
             <h1 class="text-center text-uppercase mt-4 encabezado-Rama">
                 <span class="text-uppercase d-block"> Rama Judicial </span>
             </h1>
             <p class="d-none d-md-block text-center text-uppercase mt-4">Somo especialistas en el area Judicial </p>
         </section>
-
-
-
+        <!--SLIDES-->
         <div class="container">
             <div id="servicios">
                 <div class="card">
                     <div class="card-header text-center" id="servicio5">
-                        <h2 class="mb-0">
+                        <h2 class="d-block d-md-none mb-0">
                             <button class="btn btn-link" data-toggle="collapse" data-target="#descripcion5"
-                                aria-expanded="true" aria-controls="#descripcion1">
-                                ACCIONES CONSTITUCIONALES "(RAMA JUDICIAL)"
+                                aria-expanded="true" aria-5controls="#descripcion1">
+                                ACCIONES 
+                                <p style="margin-bottom: 0rem;">CONSTITUCIONALES</p> 
+                                <p>& (Rama Judicial)</p>
+                            </button>
+                        </h2>
+                        <h2 class="d-none d-md-block mb-0">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#descripcion5"
+                                aria-expanded="true" aria-5controls="#descripcion1">
+                                ACCIONES CONSTITUCIONALES & (Rama Judicial)
                             </button>
                         </h2>
                     </div>
@@ -304,7 +310,7 @@
                                 <div id="Ramajudicial<?php echo $producto1['id'];?>"
                                     class=" text-justify col-12 col-sm-6 col-md-4 col-lg-6">
                                     <h2 class="text-center text-lo">¿<?php echo $producto1 ['nombre'];?>?</h2>
-                                    <p>
+                                    <p stlyle="text-align: justify">
                                         <?php echo $producto1 ['descripcion'];?>
                                     </p>
                                     <?php 
@@ -316,47 +322,53 @@
 
                     </div>
                 </div>
-
             </div>
         </div>
-
-        <div class="container">
+      <!--POLIZAS-->
+      <div class="container">
         <div id="servicios">
-            <div class="card align-self">
+            <div class="card ">
                 <div class="card-header text-center" id="servicio6">
-                    <h2 class="mb-0">
+                    <h2 class="d-none d-md-block">
                         <button class="btn btn-link" data-toggle="collapse" data-target="#descripcion6"
                             aria-expanded="true" aria-controls="#descripcion6">
                             POLIZAS JUDICIALES & DE CUMPLIMIENTO
                         </button>
                     </h2>
+                    <h2 class="d-block d-md-none mb-0">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#descripcion5"
+                                aria-expanded="true" aria-5controls="#descripcion1">
+                                POLIZAS JUDICIALES 
+                                <p style="margin-bottom: 0rem;">& DE CUMPLIMIENTO</p> 
+                                <!--"<p>& (Rama Judicial)</p>"-->
+                            </button>
+                        </h2 >
                 </div>
                 <!--.card-header-->
                 <div id="descripcion6" class="collapse show" aria-labelledby="servicio6" data-parent="#servicios">
                     <div class="nuevo-sitio_1 py-1">
-                        <div class="d-none mb-4 offset-4 col-12 co-sm-6 col-lg-4">
+                        <div class="d-none d-md-block  mb-4 offset-4 col-12 co-sm-6 col-lg-4">
                             <img src="Img1/seguros_estado.png" class="img-fluid w-100">
                         </div>
-
-                        <div class=" mb-4  col-12 co-sm-6 col-lg-4">
+                        <div class="d-block d-md-none mb-4  col-12 co-sm-6 col-lg-4">
                             <img src="Img1/seguros_estado.png" class="img-fluid w-100">
                         </div>
                         <div class="row">
                             <div class=" text-justify col-12 col-sm-6 col-md-8 col-lg-6 "
                                 style="border-right: 4px solid orange;">
                                 <ul class=" list-group">
-                                    <li class="list-group-item">POLIZAS PENALES DE 1-5 </li>
-                                    <li class="list-group-item">POLIZAS DE RESPONSABILIDAD CIVIL</li>
-                                    <li class="list-group-item">POLIZAS CIVILES "(ART:599,602,384 & 382)"</li>
-                                    <li class="list-group-item">SOATS</li>
-                                    <li class="list-group-item">POLIZAS TODO RIESGO</li>
+                                    <li class="list-group-item"style=" font-size: 1.2rem;;">POLIZAS PENALES DE 1-5 </li>
+                                    <li class="list-group-item"style=" font-size: 1.2rem;;" >POLIZAS DE RESPONSABILIDAD CIVIL</li>
+                                    <li class="list-group-item"style=" font-size: 1.2rem;;" >POLIZAS CIVILES "(ART:599,602,384 & 382)"</li>
+                                    <li class="list-group-item"style=" font-size: 1.2rem;;" >SOATS</li>
+                                    <li class="list-group-item"style=" font-size: 1.2rem;;" >POLIZAS TODO RIESGO</li>
                                 </ul>
                             </div>
                             <div class=" text-justify col-12 col-sm-6 col-md-4 col-lg-6">
                                 <h2 class="text-center text-lo">
                                     TASAS POLIZAS PENALES
                                 </h2>
-                                <div class="d-none d-md-block">
+                                <div class="table-responsive-sm d-md-block">
                                     <table class="table table-hover  table-bordered  text-center mt-3">
                                         <thead class="thead-dark">
                                             <tr>
@@ -390,15 +402,8 @@
 
                     </div>
                 </div>
-
             </div>
-        </div>
-        </div>       
-        <div></div>
-
-
-
-
+        </div>  
     </div>
 </div>
 

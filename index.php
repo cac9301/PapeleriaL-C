@@ -26,7 +26,7 @@
         <div class="carousel-item">
             <img class="Imagen-hero img-fluid w-100" src="Img1/slide_02.jpg" alt="Conoce nuestros servicios">
             <div class="carousel-caption">
-                <h3 class="text-uppercase h3-hero" style="color: black;">Aciones Constitucionales</h3>
+                <h3 class="text-uppercase h3-hero" style="color: black;">Acciones Constitucionales</h3>
             </div>
         </div>
         <div class="carousel-item">
@@ -36,10 +36,12 @@
             </div>
         </div>
         <div class="carousel-item active">
+            <a href="servicios.php#ramaJudicial">
             <img class="Imagen-hero img-fluid w-100" src="Img1/slide_04_poliza.jpg" alt="Promoción">
             <div class="carousel-caption">
                 <h3 class="text-uppercase">Polizas Judiciales</h3>
             </div>
+            </a>
         </div>
         <!--.carousel-item-->
 
@@ -67,7 +69,7 @@
     <div class="row">
         <div class="col-sm-6 col-md-4 text-center mb-4">
             <div class="imagen-servicio">
-                <img src="Img1/familia.png" class="Imagen-servicio img-fluid w-100">
+                <img src="Img1/Nostros_familia.jpeg" class="Imagen-servicio img-fluid w-100">
                 <div class="row no-gutters justify-content-center">
                     <div class="col-md-10 pt-4 servicio-info">
                         <h2 class="text-center text-uppercase encabezado">
@@ -242,8 +244,8 @@
         <div class="col-md-8 col-lg-6 text-center">
             <h3 class="text-uppercase">Realiza una consulta </h3>
             <p class="mt-5 text-uppercase text-justify">
-                No dudes en realiar una pregunta,
-                <br> en transcurso de 24 horas respondemos tu solicitud
+                No dudes en realizar una pregunta,
+                <br> en el transcurso de 24 horas respondemos tu solicitud
                 </br>
             </p>
             <ul style="list-style: none;">

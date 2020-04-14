@@ -21,30 +21,30 @@
                     <a href="https://api.whatsapp.com/send?phone=573155220121&amp;text=&amp;source=&amp;data= ">
                         <p>3155220121 </p>
                     </a>
-                    <nav class="sociales text-center">
-                        <ul>
-                            <li>
-                                <a href="http://facebook.com">
-                                    <span class="sr-only"> Facebook</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://twitter.com">
-                                    <span class="sr-only"> Twitter</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://instagram.com">
-                                    <span class="sr-only"> Instagram</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://youtube.com">
-                                    <span class="sr-only"> YouTube</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
+                    <nav class="sociales text-center text-lg-right">
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/pages/DISTRIBUIDORA-PAPELERA-LC/659951977358117?eid=ARBx-tLuJ8PvJeMFfE4rUw1n5KmLi0mdjGFmtHUqrAMRy5lD67uRTxAFAciKI5KGwe-xt8ctM84PMmqy&timeline_context_item_type=intro_card_work&timeline_context_item_source=1202512799&fref=tag">
+                                <span class="sr-only"> Facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://twitter.com">
+                                <span class="sr-only"> Twitter</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://instagram.com">
+                                <span class="sr-only"> Instagram</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://api.whatsapp.com/send?phone=573155220121&amp;text=&amp;source=&amp;data= ">
+                                <span class="sr-only"> whatsapp</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
                 </div>
                 <!--col-md-4-->
                 <hr class="w-100">
